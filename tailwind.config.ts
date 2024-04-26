@@ -8,10 +8,62 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        Red: "#FC4747",
+        DarkBlue: "#10141E",
+        GreyishBlue: "#5A698F",
+        SemiDarkBlue: "#161D2F",
+        White: "#FFF",
+      },
+      fontSize: {
+        xl3: [
+          "2rem",
+          {
+            lineHeight: "normal",
+            letterSpacing: "-0.03125rem",
+            fontWeight: "400",
+          },
+        ],
+        xl2: [
+          "1.5rem",
+          {
+            lineHeight: "normal",
+            letterSpacing: "normal",
+            fontWeight: "400",
+          },
+        ],
+        xl: [
+          "1.5rem",
+          {
+            lineHeight: "normal",
+            letterSpacing: "normal",
+            fontWeight: "600",
+          },
+        ],
+        lg: [
+          "1.125rem",
+          {
+            lineHeight: "normal",
+            letterSpacing: "normal",
+            fontWeight: "600",
+          },
+        ],
+        base: [
+          "0.9375rem",
+          {
+            lineHeight: "normal",
+            letterSpacing: "normal",
+            fontWeight: "400",
+          },
+        ],
+        sm: [
+          "0.8125rem",
+          {
+            lineHeight: "normal",
+            letterSpacing: "normal",
+            fontWeight: "400",
+          },
+        ],
       },
     },
   },
