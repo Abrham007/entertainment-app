@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${outfit.className} min-h-screen bg-DarkBlue`}>
+      <body className={`${outfit.className} relative min-h-screen bg-DarkBlue`}>
         {children}
       </body>
     </html>
