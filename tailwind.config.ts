@@ -29,7 +29,7 @@ const config: Config = {
           {
             lineHeight: "normal",
             letterSpacing: "normal",
-            fontWeight: "400",
+            fontWeight: "600",
           },
         ],
         xl: [
@@ -37,7 +37,7 @@ const config: Config = {
           {
             lineHeight: "normal",
             letterSpacing: "normal",
-            fontWeight: "600",
+            fontWeight: "400",
           },
         ],
         lg: [
