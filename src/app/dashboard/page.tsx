@@ -1,5 +1,6 @@
 import EntertainmentItem from "@/components/DashboardPage/EntertainmentItem";
 import SearchBar from "@/components/DashboardPage/SearchBar";
+import TrendingItem from "@/components/DashboardPage/TrendingItem";
 
 export default function DashboardPage() {
   return (
@@ -10,11 +11,11 @@ export default function DashboardPage() {
           <h2 className="text-[1.25rem] md:text-xl3 tracking-[-0.0195rem] text-White">
             Trending
           </h2>
-          <ul className="flex gap-4 md:gap-[29px] lg:gap-10 overflow-auto">
-            <EntertainmentItem></EntertainmentItem>
-            <EntertainmentItem></EntertainmentItem>
-            <EntertainmentItem></EntertainmentItem>
-            <EntertainmentItem></EntertainmentItem>
+          <ul className="flex gap-4 md:gap-[29px] lg:gap-10 overflow-hidden">
+            <TrendingItem></TrendingItem>
+            <TrendingItem></TrendingItem>
+            <TrendingItem></TrendingItem>
+            <TrendingItem></TrendingItem>
           </ul>
         </div>
         <div className="flex flex-col gap-4 md:gap-6 lg:gap-8">
