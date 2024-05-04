@@ -35,7 +35,6 @@ export default function EntertainmentItem() {
           <picture>
             <source media="(min-width: 1020px)" srcSet={desktop} />
             <source media="(min-width: 768px)" srcSet={tablet} />
-            <source media="(min-width: 500px)" srcSet={mobile} />
             <img {...rest} alt="" className="rounded-lg" />
           </picture>
           <div className="absolute top-2 right-2 md:top-4 md:right-4 w-8 h-8 flex justify-center items-center bg-[#10141E50] rounded-full">
@@ -49,10 +48,12 @@ export default function EntertainmentItem() {
         </div>
         <figcaption className="flex flex-col gap-[5px]">
           <div className="flex gap-[6px] md:gap-2">
-            <p className="text-[0.6875rem] texl-sm text-White  opacity-75">
+            <p className="text-[0.6875rem] md:texl-sm text-White  opacity-75">
               2019
             </p>
-            <p className="text-[0.6875rem] texl-sm text-White  opacity-75">.</p>
+            <p className="text-[0.6875rem] md:texl-sm text-White  opacity-75">
+              .
+            </p>
             <p className="flex gap-1">
               <Image
                 src="/images/icon-category-movie.svg"
@@ -60,12 +61,16 @@ export default function EntertainmentItem() {
                 width={12}
                 height={12}
               ></Image>
-              <span className="text-[0.6875rem] texl-sm text-White  opacity-75">
+              <span className="text-[0.6875rem] md:texl-sm text-White  opacity-75">
                 Movie
               </span>
             </p>
-            <p className="text-[0.6875rem] texl-sm text-White  opacity-75">.</p>
-            <p className="text-[0.6875rem] texl-sm text-White  opacity-75">E</p>
+            <p className="text-[0.6875rem] md:texl-sm text-White  opacity-75">
+              .
+            </p>
+            <p className="text-[0.6875rem] md:texl-sm text-White  opacity-75">
+              E
+            </p>
           </div>
           <h3 className="text-[0.875rem] md:text-lg text-White">
             The Great Lands
